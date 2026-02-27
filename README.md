@@ -1,4 +1,4 @@
-<img width="453" height="954" alt="connections" src="https://github.com/user-attachments/assets/e0fb0e96-e98f-455e-b9ab-a2722c2659ad" /># inter-esp32-i2c-communication-blinky
+### inter-esp32-i2c-communication-blinky
 Demonstration of I2C communication protocol using two ESP32 modules, both with in-built button & LEDs.
 
 ## ℹ️ Overview
