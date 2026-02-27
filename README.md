@@ -1,8 +1,9 @@
-### inter-esp32-i2c-communication-blinky
-Demonstration of I2C communication protocol using two ESP32 modules, both with in-built button & LEDs.
+# inter-esp32-i2c-communication-blinky
+Demonstration of I2C communication protocol using two ESP32 modules.
+One ESP32 module acts as a slave while the other as a master, two way communication is established, such that the LED in ESP32 module reacts to button presses in the other ESP32.
 
 ## ℹ️ Overview
-This project demonstrates the use of I2C communication protocol to establish packet transfers between two ESP32 modules. The ESP32 modules used:
+The ESP32 modules used:
 1. ESP32-wroom-32: Built in LED (GPIO 2) and button (GPIO 0).
 2. ESP32-c6: Built in LED (GPIO 8) and button (GPIO 9).
 
