@@ -1,4 +1,5 @@
-// Code for the ESP32-WROOM-32 - SLAVE DEVICE
+// ESP32-WROOM #1
+// Code for the ESP32-WROOM-32 acting as a slave device on the I2C bus
 #include <Arduino.h>
 #include "Wire.h"
 
@@ -55,7 +56,8 @@ void loop()
   delay(500);
 }
 
-// Code for the ESP32-c6 - MASTER DEVICE
+// ESP32-C6 #2
+// Code for the ESP32-C6 acting as a master device on the I2C bus
 // #include <Arduino.h>
 // #include "Wire.h"
 // #include <Adafruit_NeoPixel.h>
